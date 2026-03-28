@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:translation.ghananlp.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:pkwolffe.hashnode.dev)",
+      "WebFetch(domain:gooey.ai)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:pypi.org)",
+      "Bash(python3 -c \"import sys,json; [print\\(f[''''name'''']\\) for f in json.load\\(sys.stdin\\)]\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:ghananlp.org)",
+      "WebFetch(domain:docs.gooey.ai)",
+      "WebFetch(domain:nlpghana.medium.com)",
+      "WebFetch(domain:abena.mobobi.com)"
+    ]
+  }
+}
